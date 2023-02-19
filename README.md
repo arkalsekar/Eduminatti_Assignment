@@ -10,6 +10,9 @@ After going through a few reports of GT Metrix and others and digging a bit more
 
      Serve images that are appropriately-sized to save cellular data and improve load time. In the Report, It can be clearly seen that site takes most of the time to load images. Seems images are in png and jpg format. Modern Generation image formats like webp and svg can be used to optimize images. Also Delivering Static files via CDN would enhance the speed to a greater extent.
   
+![](https://github.com/arkalsekar/Eduminatti_Assignment/blob/main/images/image_time.PNG?raw=true)
+
+
 2. *Minify CSS :*
   
    Minifying CSS files can reduce network payload sizes. Also Delivering these Static Files over CDN can enhance the speed to a greater extent.
@@ -17,6 +20,8 @@ After going through a few reports of GT Metrix and others and digging a bit more
 3. *Minify JavaScript :*
 
    Minifying JavaScript files can reduce payload sizes and script parse time. Firstly, effecient JS code must be written, and then using White Space Remover Tools can help decrease the size of Javascript Files. 
+
+![](https://github.com/arkalsekar/Eduminatti_Assignment/blob/main/images/JS_Load.PNG?raw=true)
 
 4. *Reduce unused CSS* : 
 
@@ -34,6 +39,8 @@ Efficiently encode images
   
    Serve images in next-gen formats
 Image formats like WebP and AVIF often provide better compression than PNG or JPEG, which means faster downloads and less data consumption.  As in the Report, It can be clearly seen that most of the delay is due to Higher Resolution Images.
+
+![](https://github.com/arkalsekar/Eduminatti_Assignment/blob/main/images/image_time.PNG?raw=true)
 
 7. *Enable text compression :*
 
@@ -60,6 +67,8 @@ Image formats like WebP and AVIF often provide better compression than PNG or JP
 
     Errors logged to the console indicate unresolved problems. They can come from network request failures and other browser concerns. Some of these errors can be seen in the image.
 
+![](https://github.com/arkalsekar/Eduminatti_Assignment/blob/main/images/Messages.PNG?raw=true)
+
 13. *Keep request counts low and transfer sizes small :*
 
     To set budgets for the quantity and size of page resources, add a budget.json file.
@@ -68,9 +77,13 @@ Image formats like WebP and AVIF often provide better compression than PNG or JP
 
     Set an explicit width and height on image elements to reduce layout shifts and improve.
 
+![](https://github.com/arkalsekar/Eduminatti_Assignment/blob/main/images/Image.PNG?raw=true)
+
 15. *Avoid large layout shifts 2 elements found :*
 
     These DOM elements contribute most to the CLS (Cumulative Layout Shift) of the page.
+
+![DOM Image](https://github.com/arkalsekar/Eduminatti_Assignment/blob/main/images/DOM.PNG?raw=true)
 
 
 ## Tools used 
